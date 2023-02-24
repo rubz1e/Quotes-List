@@ -1,0 +1,24 @@
+.quotes {
+  transform: translate(-50%, -50%);
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  max-width: 1200px;
+  transition: .2s ease-in-out;
+
+  &-title {
+    font-family: 'MTSSans-UltraWide';
+    color: #303138;
+    font-size: 48px;
+  }
+}
+
+.fadeOut {
+  opacity: 0;
+  transition: opacity 1s ease-out;
+}
+
+.fadeIn {
+  opacity: 1;
+  transition: opacity 1s ease-in;
+}

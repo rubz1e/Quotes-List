@@ -1,0 +1,39 @@
+
+@font-face {
+  font-family:'MTSSans-Black';
+  src: url('../public/fonts/MTSSans-Black.woff2') format('woff2');
+  font-weight: bold;
+  font-style: bold;
+}
+
+@font-face {
+  font-family:'MTSSans-Bold';
+  src: url('../public/fonts/MTSSans-Bold__W.woff2') format('woff2');
+  font-weight: 600;
+  font-style: bold;
+}
+
+@font-face {
+  font-family:'MTSSans-Medium';
+  src: url('../public/fonts/MTSSans-Medium__W.woff2') format('woff2');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family:'MTSSans-Regular';
+  src: url('../public/fonts/MTSSans-Regular__W.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family:'MTSSans-UltraWide';
+  src: url('../public/fonts/MTSSans-UltraWide__W.woff2') format('woff2');
+  font-weight: 800;
+  font-style: bold;
+}
+
+body {
+  background-color: #f2f3f7;
+}
